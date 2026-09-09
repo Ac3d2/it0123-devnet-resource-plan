@@ -1,0 +1,1 @@
+# it0123-devnet-resource-plan
