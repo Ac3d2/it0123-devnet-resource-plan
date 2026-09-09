@@ -1,0 +1,39 @@
+{
+  "student_name": "John Paul B. Benavides",
+  "section": "TN37",
+  "ai_tool": "Gemini",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "The AI recommended using an always-on environment for immediate testing.",
+      "verification_status": "verified",
+      "rationale": "Immediate access is required which is what the Always-on sandbox is made for."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/",
+      "ai_recommendation_summary": "The AI suggested reserving a dedicated sandbox for isolated network configuration.",
+      "verification_status": "verified",
+      "rationale": "This situation requires private access and a VPN is available. So a reservation sandbox would be required."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "The AI pointed out that learning labs provide step-by-step guided tutorials.",
+      "verification_status": "verified",
+      "rationale": "Learning labs are meant for students and especially beginners which is the subject of this sitaution."
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "The AI advised searching Code Exchange for existing automation script examples.",
+      "verification_status": "verified",
+      "rationale": "Well through the process of elimination, and needing access to code repositories. A code exchange is best suited for this scencario."
+    }
+  ]
+}
